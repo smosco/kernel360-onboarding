@@ -1,0 +1,46 @@
+#cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  width: 20rem;
+  height: 10rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+/* color css */
+.card.bg-red {
+  background-color: red;
+}
+
+.card.bg-green {
+  background-color: green;
+}
+
+.card.bg-blue {
+  background-color: blue;
+}
+
+/* text css */
+.card.text-bold {
+  font-weight: bold;
+}
+
+.card.text-italic {
+  font-style: italic;
+}
+
+.card.text-strike {
+  text-decoration: strike;
+}
+
+.card.text-underline {
+  text-decoration: underline;
+}
